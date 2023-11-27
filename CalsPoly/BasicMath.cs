@@ -40,4 +40,9 @@ internal class BasicMath
         }
         Console.WriteLine(NumberOne-NumberTwo);
     }
+    public virtual void Divide()
+    {
+        Console.WriteLine(NumberOne/NumberTwo);
+    }
+
 }
