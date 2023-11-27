@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPP", "OPP\OPP.csproj", "{DBF30853-B623-45D0-9EA9-517A31A8C2F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OPP", "OPP\OPP.csproj", "{DBF30853-B623-45D0-9EA9-517A31A8C2F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphism", "{74E8B484-3689-43D3-80F6-9FEEB32D85FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalsPoly", "CalsPoly\CalsPoly.csproj", "{68DEBED4-FB64-48AE-B8F1-A0E6077769A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{DBF30853-B623-45D0-9EA9-517A31A8C2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF30853-B623-45D0-9EA9-517A31A8C2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF30853-B623-45D0-9EA9-517A31A8C2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DEBED4-FB64-48AE-B8F1-A0E6077769A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DEBED4-FB64-48AE-B8F1-A0E6077769A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DEBED4-FB64-48AE-B8F1-A0E6077769A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DEBED4-FB64-48AE-B8F1-A0E6077769A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68DEBED4-FB64-48AE-B8F1-A0E6077769A0} = {74E8B484-3689-43D3-80F6-9FEEB32D85FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E867DE9-551C-4FAC-BFF3-C28E96C506DA}
