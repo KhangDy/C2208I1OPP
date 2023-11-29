@@ -115,3 +115,22 @@ foreach ( var i in list2.Where(u => u.RollNumber > 2))
 //ban than collection co luon foreach
 list1.ForEach(Console.WriteLine);
 list1.ForEach (stu => Console.WriteLine(stu.FullNmae));
+
+list1.ForEach(
+    stu =>
+    {
+        if (stu.RoomNumber > 2)
+        {
+            Console.WriteLine(stu);
+        }
+    }
+);
+
+list1.Where(u => u.RollNumber > 2)
+    .ToList()
+    .ForEach(Console.WriteLine);
+
+//QUERY SYNTAX
+(from stu in list1
+ where stu.RoomNumber > 2
+ select stu).ToList().ForEach(Console.WriteLine);
