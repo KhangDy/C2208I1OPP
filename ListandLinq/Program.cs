@@ -111,3 +111,7 @@ foreach ( var i in list2.Where(u => u.RollNumber > 2))
 {
     Console.WriteLine(i);
 }
+
+//ban than collection co luon foreach
+list1.ForEach(Console.WriteLine);
+list1.ForEach (stu => Console.WriteLine(stu.FullNmae));
