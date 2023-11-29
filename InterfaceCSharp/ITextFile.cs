@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace InterfaceCSharp;
 internal interface ITextFile
 {
-    void WriteText();
+    void WriteTextFile();
     void ReadFile();
 
 }
