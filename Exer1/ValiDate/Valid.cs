@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exer1;
-internal class Valid <T>
+namespace Exer1.ValiDate;
+internal class Valid<T>
 {
     public static T CheckCR(string message)
     {
@@ -37,14 +37,14 @@ internal class Valid <T>
                         break;
                     case TypeCode.Int32:
                         i = Convert.ToInt32(str);
-                        if ((int)i <= 0) 
+                        if ((int)i <= 0)
                             throw new Exception("loi, so phai >= 0");
                         break;
                     case TypeCode.Double:
                         i = Convert.ToDouble(str);
                         break;
                     case TypeCode.DateTime:
-                        var date = DateTime.TryParseExact(str, ["dd-MM-yyyy", "dd/MM/yyyy"], new CultureInfo("vi-VN"), DateTimeStyles.None,out DateTime t) ? t : throw new Exception("loi, phai la dd-MM-yyyy hay dd/MM/yyyy");
+                        var date = DateTime.TryParseExact(str, ["dd-MM-yyyy", "dd/MM/yyyy"], new CultureInfo("vi-VN"), DateTimeStyles.None, out DateTime t) ? t : throw new Exception("loi, phai la dd-MM-yyyy hay dd/MM/yyyy");
                         i = date.Add(DateTime.Now.TimeOfDay);
                         break;
                 }
