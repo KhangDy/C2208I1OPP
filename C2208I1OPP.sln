@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListandLinq", "ListandLinq\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtensionMethod", "ExtensionMethod", "{1BD16CD1-0C6A-4B02-9F42-B0FB02DEC778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionReviewMethod", "ExtensionReviewMethod\ExtensionReviewMethod.csproj", "{3470AEEC-2E18-4111-B3B9-9C7B308A01BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionReviewMethod", "ExtensionReviewMethod\ExtensionReviewMethod.csproj", "{3470AEEC-2E18-4111-B3B9-9C7B308A01BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise1", "Exercise1", "{963D7423-446A-4F2B-A79A-27CC15E07E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exer1", "Exer1\Exer1.csproj", "{19A04031-134B-46A7-B352-CACC8E8C745E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exer1", "Exer1\Exer1.csproj", "{19A04031-134B-46A7-B352-CACC8E8C745E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
